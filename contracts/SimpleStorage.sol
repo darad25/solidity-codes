@@ -19,7 +19,7 @@ Person[] public listOfPeople;  // []
 
 mapping(string => uint256) public nameToFavoriteNumber;     // we can use this instead of haivng to use the above line to search through the list, napping is set of keys returning information about a key
 
-function store(uint256 _favoriteNumber) public {
+function store(uint256 _favoriteNumber) public virtual {
     myFavoriteNumber = _favoriteNumber;
 }
 
